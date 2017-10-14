@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    color: #000;
+    font-family: arial;
+}
+
+body a{
+    text-decoration: none;
+    color: #000;
+}
+.container{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: skyblue;  
+}
+.gameArea{
+    width: 100%;
+}
+
+.dataPanel{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+
+#bubbleCount{
+    float: left;
+    margin:10px 5px;
+    text-align: center;
+}
+#timer{
+    float: right;
+    margin: 10px 5px;
+    text-align: center;
+}
+.bubble{
+    width: 16.6%;
+    float: left;
+    cursor: pointer;
+}
+.dataPanel p{
+    margin: 10px;
+}
+
+.result{
+    font-size: 46px;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+   
+}
+
+.startScreen{
+    position: absolute;
+    width: 300px;
+    height:450px;
+    background: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+.resultScreen{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    z-index: 3;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+.start{
+    margin-left: 40%;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.gameScreen{
+    position: absolute;
+    width: 320px;
+    height:480px;
+    
+    z-index: 1;
+    display: none;
+}
+
+#title{
+    font-size: 72px;
+    font-family: monotype corsiva;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+#restart{
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+     margin-left: 40%;
+    margin-top: 42px;
+}
+.clr{
+    clear: both;
+}
